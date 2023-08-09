@@ -1,0 +1,15 @@
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\bin\Debug\net7.0\roguesharp.exe
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\bin\Debug\net7.0\roguesharp.deps.json
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\bin\Debug\net7.0\roguesharp.runtimeconfig.json
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\bin\Debug\net7.0\roguesharp.dll
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\bin\Debug\net7.0\roguesharp.pdb
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.csproj.AssemblyReference.cache
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.AssemblyInfoInputs.cache
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.AssemblyInfo.cs
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.csproj.CoreCompileInputs.cache
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.dll
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\refint\roguesharp.dll
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.pdb
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\roguesharp.genruntimeconfig.cache
+C:\Users\dtrog\roguesharp\RogueSharp\roguesharp\obj\Debug\net7.0\ref\roguesharp.dll

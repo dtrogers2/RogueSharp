@@ -256,7 +256,16 @@ namespace RogueSharp
         //Compares two objects by determining the distance between them
         public int CompareTo(object b)
         {
-            Entity e2 = (Entity)b;
+            Entity e2 = (Entity) b;
+
+            if (this.distanceTo(DrawScreen.viewX,DrawScreen.viewY) > e2.distanceTo(DrawScreen.viewX,DrawScreen.viewY)) return 1;
+            if (this.distanceTo(DrawScreen.viewX, DrawScreen.viewY) < e2.distanceTo(DrawScreen.viewX, DrawScreen.viewY)) return -1;
+            else return 0;
+        }
+
+        public int CompareTo(Entity b)
+        {
+            Entity e2 = b;
 
             if (this.distanceTo(DrawScreen.viewX,DrawScreen.viewY) > e2.distanceTo(DrawScreen.viewX,DrawScreen.viewY)) return 1;
             if (this.distanceTo(DrawScreen.viewX, DrawScreen.viewY) < e2.distanceTo(DrawScreen.viewX, DrawScreen.viewY)) return -1;

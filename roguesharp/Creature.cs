@@ -16,7 +16,7 @@ namespace RogueSharp
         public List<Creature> friendlies { get; }
         public List<Creature> hostiles { get; }
         string AI;
-        Coordinate destination;
+        //Coordinate destination;
         Random rng = new Random();
         public int hd { set; get; }
         public int str { get; set; }
@@ -46,7 +46,7 @@ namespace RogueSharp
             this.image = image;
             this.name = name;
             this.isSolid = isSolid;
-            destination = new Coordinate(x, y);
+            //destination = new Coordinate(x, y);
             entities.Add(this);
             this.str = rollDice(3, 6);
             this.dex = rollDice(3, 6);
@@ -75,7 +75,7 @@ namespace RogueSharp
             this.image = image;
             this.name = name;
             this.isSolid = isSolid;
-            destination = new Coordinate(x, y);
+           // destination = new Coordinate(x, y);
             entities.Add(this);
             this.str = str;
             this.dex = dex;

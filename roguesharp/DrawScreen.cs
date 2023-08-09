@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ConsoleLib.ConsoleListener;
+using ConsoleLib;
 
 namespace RogueSharp
 {
@@ -140,13 +142,14 @@ namespace RogueSharp
                 {
                     switch (y)
                     {
-                        case 0: drawline += creatureAt.curHp + "/" + creatureAt.maxHP + " HP    "; break;
+                        case 0: drawline += "[31m" + creatureAt.curHp + "/" + creatureAt.maxHP + " HP    [0m"; break;
                         case 1: drawline += "STR: " + creatureAt.str + "   "; break;
                         case 2: drawline += "DEX: " + creatureAt.dex + "   "; break;
                         case 3: drawline += "CON: " + creatureAt.con + "   "; break;
                         case 4: drawline += "INT: " + creatureAt.intel + "   "; break;
                         case 5: drawline += "WIS: " + creatureAt.wis + "   "; break;
                         case 6: drawline += "CHA: " + creatureAt.cha + "   "; break;
+                        case 7: drawline += ConsoleListener.Clicked; break;
                         //case 7: if (entAt != null) { drawline += entAt.getName() + "     "; } else { drawline += "                 "; } break;
                         default: break;
                     }

@@ -21,7 +21,7 @@ namespace RogueSharp
 
                 Console.WriteLine("Make a new character?");
                 string askDone = Console.ReadLine();
-                if (askDone == "" || askDone == " ") { done = true; }
+                if (askDone != "y") { done = true; }
             } while (!done);
             Ally.allies[0].isPlayer = true;
 
